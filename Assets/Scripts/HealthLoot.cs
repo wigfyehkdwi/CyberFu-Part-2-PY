@@ -21,7 +21,7 @@ public class HealthLoot : MonoBehaviour
         if (other.tag == "Player")
         {
             PlayerHealth ph = other.GetComponent<PlayerHealth>();
-            if (ph.currentPlayerHealth < 10)
+            if (ph.currentPlayerHealth < 11)
             {
                 ph.currentPlayerHealth += 1;
             }
